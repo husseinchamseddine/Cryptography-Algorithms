@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #13123A;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px; /* Adjusts the space between the title and buttons */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  button {
+    background: linear-gradient(to right, #6e48aa, #9d50bb);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Slightly shrinks the button when clicked */
+  }
+
+  h1 {
+      margin-bottom: 1em;
+  }
+
+  .form-group {
+      margin-bottom: 1em;
+  }
+
+  .form-group label {
+    color: white; /* Sets the text color to white */
+}
+
+  label {
+      display: block;
+      margin-bottom: .5em;
+  }
+
+  input[type="text"] {
+      width: 100%;
+      padding: .5em;
+      margin-bottom: .5em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+
+  button.encrypt-btn {
+      padding: 10px 20px;
+      background-color: #6e48aa;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 0; /* Removes default margin */
+  }
+
+  button.encrypt-btn:hover {
+      background-color: #9d50bb;
+  }
+  
+.white-text {
+    color: white;
+}
